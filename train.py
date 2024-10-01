@@ -15,7 +15,7 @@ X = data[['wall_up', 'wall_right', 'wall_down', 'wall_left', 'meat_up',
 Y = data['direction']
 
 # Split data into training and testing sets
-x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=1)
 print(x_train.shape, x_test.shape, y_train.shape, y_test.shape)
 
 # Define the neural network model

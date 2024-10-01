@@ -3,7 +3,7 @@ from snake import Snake
 from food import Meat
 import pandas as pd
 import numpy as np
-from keras.models import Sequential, load_model
+from keras.models import load_model
 
 # Movement directions for the snake
 UP = 0
